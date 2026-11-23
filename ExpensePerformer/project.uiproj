@@ -1,0 +1,6 @@
+{
+  "Name": "ExpensePerformer",
+  "ProjectType": "Process",
+  "Description": "This is the performer for expense claim",
+  "MainFile": "Main.xaml"
+}

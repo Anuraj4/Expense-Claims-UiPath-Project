@@ -1,0 +1,47 @@
+{
+  "version": "2.0",
+  "resources": [
+    {
+      "activityDisplayName": "Get transaction item",
+      "activityId": "GetQueueItem_2",
+      "resource": "queue",
+      "key": "ExpenseClaims.ExpenseClaimQueue",
+      "id": "queueExpenseClaims.ExpenseClaimQueueExpenseClaimsFalseExpenseClaimQueueFalse",
+      "value": {
+        "folderPath": {
+          "defaultValue": "ExpenseClaims",
+          "isExpression": false,
+          "displayName": "Folder path"
+        },
+        "name": {
+          "defaultValue": "ExpenseClaimQueue",
+          "isExpression": false,
+          "displayName": "Queue name"
+        }
+      },
+      "metadata": {
+        "BindingsVersion": "2.2"
+      }
+    },
+    {
+      "activityDisplayName": "Get Asset",
+      "activityId": "GetRobotAsset_1",
+      "resource": "asset",
+      "key": "ExpenseClaims.ClaimApprovalLimit",
+      "id": "assetExpenseClaims.ClaimApprovalLimitExpenseClaimsFalseClaimApprovalLimitFalse",
+      "value": {
+        "folderPath": {
+          "defaultValue": "ExpenseClaims",
+          "isExpression": false
+        },
+        "name": {
+          "defaultValue": "ClaimApprovalLimit",
+          "isExpression": false
+        }
+      },
+      "metadata": {
+        "BindingsVersion": "2.2"
+      }
+    }
+  ]
+}

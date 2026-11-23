@@ -1,0 +1,20 @@
+{
+  "Settings": {
+    "OrchestratorQueueName": "ExpenseClaimQueue",
+    "OrchestratorQueueFolder": "ExpenseClaims",
+    "logF_BusinessProcessName": "ExpenseClaimPerformer",
+    "LogMessage_GetTransactionData": "Processing Transaction Number: ",
+    "LogMessage_Success": "Transaction Successful.",
+    "OutputFolderPath": "C:\\Users\\anura\\OneDrive\\Desktop\\Expense Claims UiPath Project\\Output",
+    "OutputFileName": "ApprovedClaims.xlsx",
+    "AllowedCategories": "Travel,Food,Lodging,Office,Training"
+  },
+  "Constants": {
+    "MaxRetryNumber": 0,
+    "MaxConsecutiveSystemExceptions": 0,
+    "ExScreenshotsFolderPath": "Exceptions_Screenshots",
+    "RetryNumberGetTransactionItem": 3,
+    "RetryNumberSetTransactionStatus": 3,
+    "ShouldMarkJobAsFaulted": false
+  }
+}
