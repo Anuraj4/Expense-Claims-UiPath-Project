@@ -1,0 +1,21 @@
+{
+  "$schema": "https://cloud.uipath.com/draft/2024-12/entry-point",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "26e12b2e-efae-4abd-b1fc-9e9230480ffc",
+      "type": "process",
+      "input": {
+        "type": "object",
+        "properties": {
+          "in_ClaimsFilePath": {
+            "type": "string",
+            "x-default-expression": "\"C:\\Users\\anura\\OneDrive\\Desktop\\Expense Claims UiPath Project\\Input\\ExpenseClaims.xlsx\"",
+            "default": "C:\\Users\\anura\\OneDrive\\Desktop\\Expense Claims UiPath Project\\Input\\ExpenseClaims.xlsx"
+          }
+        },
+        "required": []
+      }
+    }
+  ]
+}
